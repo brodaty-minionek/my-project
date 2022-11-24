@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgba(238, 241, 208, 0.6);
+}
+
+/* tytuł "brodaty minionek" */
+header {
+    color: rgb(0, 0, 7);
+    text-decoration: underline;
+    text-align: center;
+    padding: none;
+    background: rgba(153, 235, 52, 0.6);
+    margin: 0 36% 0;
+    border: 2px solid rgba(124, 185, 43, 0.964);
+    border-radius: 5px;
+   
+}
+
+/* zdjęcia profilowe */
+.avatarimage img{
+    border-radius: 50%;
+    border: 9px double rgba(78, 104, 205, 0.5);
+    margin: 1% 40%;
+    max-width: 25%;
+    max-height: 25%;
+    width: 15%;
+    height: 15%x;
+    transition: all 3s;
+    
+}
+
+/* background */
+.avatar {
+    border: 1px solid blue;
+    background-image: url("https://www.hdwallpaper.nu/wp-content/uploads/2015/07/Minions_Wallpaper_002.jpg");
+    background-size: cover;  
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 2%;
+    /* margin-bottom: 2%; */
+}
+
+.dream {
+    color: rgb(28, 66, 28);
+    text-decoration: underline;
+}
+
+.about-me {
+    text-align: center;
+    margin: 0 2% ;
+}

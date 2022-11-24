@@ -1,0 +1,20 @@
+img {
+    width: 5%;
+    height: 5%;
+    padding: 0% 1%;
+}
+
+/* dodaje akapit do linków  */
+.social-network {
+    margin-left: 2%;;
+}
+
+/* pasek pod spodem z znaczkiem copyright */
+h5 {
+    border-top: 1px dotted rgba(237, 176, 176, .3);
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: #778899 ;
+    padding: 2% 0 2% 75%; 
+}

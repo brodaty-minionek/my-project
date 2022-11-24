@@ -1,0 +1,46 @@
+table { 
+    width: 70%;
+    margin-left: 3%;
+    border: 1px solid rgb(59, 14, 130);
+    text-align: center;
+}
+
+th {
+    color: rgb(4, 142, 255);
+    text-decoration: underline;
+    text-align: center;
+    padding: 2px 15px 2px;
+    border: 2px solid rgb(178, 172, 233);
+    background-color: rgb(236, 231, 241);    
+}
+
+.table tr:nth-child(odd) {
+    color: rgb(34, 28, 143);
+}
+
+.down tr:nth-child(even) {
+    background: rgb(155, 155, 22);
+}
+
+.table td:nth-child(2), .table td:nth-child(4) {
+    background: rgb(237, 248, 177);
+}
+
+.table td:nth-child(odd) {
+    background: rgb(251, 230, 230);
+}
+/* добавляем интерракции */
+.table td:hover {
+    background-color: rgb(171, 155, 237);
+}
+
+td {
+    border: 2px solid rgb(171, 227, 191);
+    padding-top: 10px;
+    transition: all 1s;
+}
+
+.table th:hover {
+    background-color: rgb(158, 158, 251);
+    color: white;
+}
